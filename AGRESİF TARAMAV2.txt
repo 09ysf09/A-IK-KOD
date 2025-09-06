@@ -1,7 +1,7 @@
 
 
 //@version=5
-indicator(shorttitle='AGRESİF CMI TARAMA', title='AGRESİF CMI TARAMA', overlay=true,  max_labels_count = 500, max_boxes_count = 500, max_lines_count = 500, max_bars_back = 1000)
+indicator(shorttitle='AGRESİF CMI TARAMAV2', title='AGRESİF CMI TARAMAV2', overlay=true,  max_labels_count = 500, max_boxes_count = 500, max_lines_count = 500, max_bars_back = 1000)
 /////////////////
 
 grupSec = input.string(defval='1', options=['1', '2', '3', '4', '5','6','7','8','9','10','11','12','13','14','ÖZEL LİSTE'], group='Taraması yapılacak 40\'arlı gruplardan birini seçin', title='Grup seç')
@@ -412,3 +412,4 @@ label.delete(lab_1[1])
 label.delete(lab_2[1])
 // label.delete(lab_3[1])
 // label.delete(lab_4[1])
+
